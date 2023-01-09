@@ -5,15 +5,15 @@ include_once 'header.php'
 <section class="login-form">
     <h2>Log in</h2>
 <div class="login-container">
-    <form action="login.inc.php" method="post">
-        <div class="login">
-    <label for="username">Username:</label>
-    <input type="text" name="username" placeholder="Type your Username">
-        </div>
-        <div class="login">
+    <form action="includes/signup.inc.php" method="post">
+    <label for="password">Name:</label>
+    <input type="text" name="name" placeholder="Type your Fullname">
+    <label for="password">Username:</label>
+    <input type="text" name="uid" placeholder="Type your Username">
     <label for="password">Password:</label>
     <input type="password" name="password" placeholder="Type your Password">
-        </div>
+    <label for="password">Email:</label>
+    <input type="text" name="email" placeholder="Type your Email">
     <button type="submit" name="submit">Continue</button>
     </section>
 
